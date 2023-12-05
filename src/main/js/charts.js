@@ -379,10 +379,10 @@ function showPackageStats(packageNames, fromDate, untilDate) {
         .attr('name', 'package')
         .val(joinedPackageNames);
 
-    if (packageNames.length > 5) {
-        window.alert('You cannot compare more than 5 packages at once.');
-        return;
-    }
+    // if (packageNames.length > 5) {
+    //     window.alert('You cannot compare more than 5 packages at once.');
+    //     return;
+    // }
 
     var $npmStat = $('#npm-stat');
 
